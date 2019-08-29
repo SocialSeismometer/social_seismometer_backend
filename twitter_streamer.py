@@ -14,7 +14,7 @@ keywords = ['earthquake', 'terremoto', 'temblor', '地震', 'jishin', 'gempa bum
 user_blacklist = ['@Jasmine_Eq00', '@Rewrite_2011', '@RedneckBot']
 
 streamer = Streamer(auth_keys=auth,
-                    filename='tweets.db',
+                    filename='../tweets.db',
                     keywords=keywords,
                     user_blacklist=user_blacklist)
 
